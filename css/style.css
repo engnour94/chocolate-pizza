@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Eczar&display=');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@300;400;500;700&family=Patrick+Hand&family=Yellowtail&display=swap');
 *{box-sizing: border-box;}
-h1{font-family: 'Yellowtail', cursive; font-size: 30px;}
+h1{font-family: 'Yellowtail', cursive; font-size: 35px;}
 body {
     width:960px;
  margin: 0 auto;
@@ -8,6 +11,9 @@ body {
 
 h1 {
     margin:0px;
+    color: black;
+    
+    
 }
 
 main{margin-top: 10px;}
@@ -21,6 +27,8 @@ header {
     
     width: 960px;
     margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
 }
 /*div {
     display: inline;
@@ -30,6 +38,10 @@ header {
 .headl {
     display: inline-block;
     float: left;
+    font-family: 'Abel', sans-serif;
+ color: rgb(167, 159, 159);
+    font-size: smaller;
+   
 }
 
 #righth {
@@ -42,4 +54,149 @@ header {
 float: right;  
 }
 .choco{
-    width: 960px;};
+    width: 960px;
+}
+
+#line {
+    margin-top: 35px;
+    background-image: url(../img/linethrow.jpg);
+    width: auto;
+    height: 20px;
+
+}
+
+#post {
+
+    font-family: 'Abel', sans-serif;
+ color: rgb(167, 159, 159);
+    font-size: smaller;
+    margin-top: 10px;
+}
+h2 {
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: normal;
+
+}
+#topim {
+    float: right;
+    display: inline;
+    color: rgb(148, 140, 140);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#print {
+    float: right;
+    margin-top: -8px;
+}
+
+
+.tap
+{
+    text-indent: 20px;
+    font-family: 'Eczar';
+    color: grey;
+    margin-top:25px;
+
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+}
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+#list{
+ list-style: none;
+    position: relative;
+    font-family: 'Patrick Hand';
+    color: rgba(31, 29, 29, 0.747);
+    /*background-image: url('https://raw.githubusercontent.com/waleedafifi90/amman-201d17/main/class-10/lab-a/lab-assets/list-bg.png');*/
+   font-size: 22px;
+   
+}
+hr {
+   
+    background-image: url(../img/small-logo.png);
+}
+footer{
+
+}
+#ull {
+    display: inline-block;
+    float: right;
+}
+#foleft {
+    float: left;
+    margin-top: 20px;
+}
+#butt {
+    float: right;
+    background-color: rgba(179, 51, 34, 0.795);
+    font-family: 'abel';
+    font-size: 25px;
+    color: white;
+        margin-top: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border: none;
+}
+#lastp {
+    float: left;
+    display: inline;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    padding-left: 15px;
+    height: 60px;
+    width:660px;
+}
+
+#name {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(82, 85, 87);
+}
+
+#foo {
+    margin-top: 100px;
+}
+#copyr {
+    text-align:center ;
+    color: rgb(153, 149, 149);
+    margin:20px;
+    line-height: 25px;
+}
+.footer {
+    display: block;
+    text-align: center;
+}
+hr {
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+}
+.footer img {
+    position: relative;
+    top: -25px;
+    background:white;
+    padding:0 5px;
+}
+.left{
+  margin-left: 70px; 
+   margin-top: 40px;
+}
+
+.right{
+    margin-top:-134px;
+    margin-right: 150px;
+}
+
+p{line-height: 30px;}
+
+
+header p{margin-top: -5px;}
