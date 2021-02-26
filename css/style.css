@@ -70,7 +70,7 @@ float: right;
     font-family: 'Abel', sans-serif;
  color: rgb(167, 159, 159);
     font-size: smaller;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 h2 {
     font-family: 'Oswald';
@@ -85,6 +85,7 @@ h2 {
     color: rgb(148, 140, 140);
     font-size: 12px;
     margin-bottom: 20px;
+    margin-top: -20px;
 }
 #print {
     float: right;
@@ -200,3 +201,5 @@ p{line-height: 30px;}
 
 
 header p{margin-top: -7px;}
+
+h2{margin-top: -40px;}
