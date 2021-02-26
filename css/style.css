@@ -41,7 +41,7 @@ header {
     font-family: 'Abel', sans-serif;
  color: rgb(167, 159, 159);
     font-size: smaller;
-   
+   margin-left: 7px;
 }
 
 #righth {
@@ -89,7 +89,7 @@ h2 {
 }
 #print {
     float: right;
-    margin-top: -8px;
+    margin-top: -9px;
 }
 
 
