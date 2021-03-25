@@ -183,7 +183,7 @@ hr {
 }
 .footer img {
     position: relative;
-    top: -25px;
+    bottom: 25px;
     background:white;
     padding:0 5px;
 }
@@ -193,13 +193,28 @@ hr {
 }
 
 .right{
-    margin-top:-134px;
-    margin-right: 150px;
+
+    
+  margin-right: 150px;
+   position: relative;
+  bottom: 134px;
+
+
 }
 
 p{line-height: 30px;}
 
 
-header p{margin-top: -7px;}
+header p
+{
+    position:relative;
+  bottom:7px;
 
-h2{margin-top: -40px;}
+
+
+}
+
+h2
+{  position:relative;
+    bottom: 40px;
+}
